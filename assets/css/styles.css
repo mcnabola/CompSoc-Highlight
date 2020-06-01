@@ -106,46 +106,46 @@ hr {
   font-weight: 100;
 }
 
-#event1 {
+#event1, #event2 {
   text-align: center;
 }
 
-#drone-night {
+/*Drone Night*/
+
+.content {
   width: 90%;
   margin-top: 30px;
 }
 
-#drone-night div {
+.content div {
   float: left;
   width: 50%;
 }
 
-#drone-night img {
+.block2 img {
   max-width: 100%;
 }
 
-#drone-night h3 {
+.content h3 {
   padding-bottom: 10px;
 }
 
-#drone-night p {
+.block1 {
   text-align: left;
-  margin: 10px 20px;
+}
+
+.block1 p {
   margin-left: 22%;
+  margin-right: 20px;
 }
 
 @media screen and (max-width: 768px) {
-  #drone-night {
+  .content {
     width: 100%;
     margin-top: 30px;
   }
 
-  #drone-night div {
-    float: none;
-    width: 80%;
-  }
-
-  #drone-night div {
+  .content div {
     float: none;
     width: 100%;
     margin-left: 0px;
@@ -153,7 +153,7 @@ hr {
     margin-bottom: 30px;
   }
 
-  #drone-night p {
+  .block1 p {
     text-align: left;
     margin: 0px;
     margin-left: auto;
@@ -164,9 +164,47 @@ hr {
     padding-right: 10%;
   }
 
-  #drone-night img {
+  .block2 img {
     max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
   }
+}
+
+/*WordPress Tutorial*/
+.wordpress-tut {
+    clear: left;
+}
+
+.wordpress-tut .block2 img {
+    margin-left: 29%;
+}
+
+.wordpress-tut .block1 p {
+    margin-left: 34%;
+    margin-right: 10%;
+}
+
+#wordpress-animation {
+  margin-top: 20px;
+  max-width: 20%;
+}
+
+@media screen and (max-width: 768px) {
+  #wordpress-animation {
+    max-width: 40%;
+    margin-bottom: 20px;
+  }
+
+  .wordpress-tut .block2 img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .wordpress-tut .block1 p {
+    margin-left: auto;
+    margin-right: auto;
+}
 }
 
 .reserve-button:hover, .reserve-button:focus, .reserve-button:active {
@@ -277,6 +315,8 @@ hr {
 #topview p {
   font-weight: 100;
 }
+
+/*Sidebar*/
 @media screen and (min-width: 875px) and (max-width: 1500px) {
 #sidebar {
   display: none;
