@@ -106,8 +106,9 @@ hr {
   font-weight: 100;
 }
 
-#event1, #event2 {
+#event1, #event2, #event3, #event4, #event5 {
   text-align: center;
+  clear: left;
 }
 
 /*Drone Night*/
@@ -177,7 +178,7 @@ hr {
 }
 
 .wordpress-tut .block2 img {
-    margin-left: 29%;
+    margin-left: 30%;
 }
 
 .wordpress-tut .block1 p {
@@ -187,13 +188,13 @@ hr {
 
 #wordpress-animation {
   margin-top: 20px;
-  max-width: 20%;
+  max-width: 10%;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 768px) {
   #wordpress-animation {
     max-width: 40%;
-    margin-bottom: 20px;
   }
 
   .wordpress-tut .block2 img {
@@ -207,22 +208,30 @@ hr {
 }
 }
 
-.reserve-button:hover, .reserve-button:focus, .reserve-button:active {
-  background-color: rgba(0,98,204,0) !important;
-  border: 3px solid #fff !important;
-  box-shadow: none !important;
-}
+/*TeamTrees*/
+ .teamtrees .block1 p {
+   margin-left: 32%;
+ }
 
-.reserve-button {
-  background-color: rgba(0,98,204,0);
-  border: 3px solid #fff;
-  border-radius: 30px;
-}
+ .teamtrees .block2 img {
+   max-width: 80%;
+ }
 
-.btn.btn-link.btn-block.arrow-button {
-  color: rgb(255,255,255);
-  font-size: 32px;
-}
+ #teamtrees {
+  max-width: 30%; 
+  margin-top: 40px; 
+  margin-bottom: 40px;
+ }
+
+ @media screen and (max-width: 768px) {
+  .teamtrees .block1 p {
+    margin-left: 0px;
+  }
+
+  #teamtrees {
+    max-width: 70%;
+  }
+ }
 
 #hero-bottom .container {
   max-width: 700px;
