@@ -207,6 +207,7 @@ hr {
 }
 }
 /*rec drive*/
+
 #recDriveAnimation {
   display: block;
   margin-left: auto;
@@ -214,6 +215,14 @@ hr {
   width: 400px;
   height: auto;
 }
+
+
+.recdrive .block2 img {
+	margin-left: 30%;
+	width: 90%;
+	height: auto;
+}
+
 .reserve-button:hover, .reserve-button:focus, .reserve-button:active {
   background-color: rgba(0,98,204,0) !important;
   border: 3px solid #fff !important;
