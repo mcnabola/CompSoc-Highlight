@@ -106,8 +106,49 @@ hr {
   font-weight: 100;
 }
 
-#event1, #event2 {
+#event1, #event2, #event3, #event4, #event5, #event6 {
   text-align: center;
+  clear: left;
+}
+
+/*About*/
+.about {
+  background-image: url(../img/hero2.jpg);
+  width: 100%;
+  background-size: cover;
+  background-position: right;
+}
+
+.about div {
+  width: 50%;
+  position: relative;
+  padding-top: 31%;
+  padding-left: 15%;
+}
+
+@media screen and (max-width: 768px) {
+  .about div {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    background-image: none;
+    width: 100%;
+  }
+
+  .about div {
+    text-align: left;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%
+  }
 }
 
 /*Drone Night*/
@@ -177,7 +218,7 @@ hr {
 }
 
 .wordpress-tut .block2 img {
-    margin-left: 29%;
+    margin-left: 30%;
 }
 
 .wordpress-tut .block1 p {
@@ -187,13 +228,13 @@ hr {
 
 #wordpress-animation {
   margin-top: 20px;
-  max-width: 20%;
+  max-width: 10%;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 768px) {
   #wordpress-animation {
     max-width: 40%;
-    margin-bottom: 20px;
   }
 
   .wordpress-tut .block2 img {
@@ -223,22 +264,82 @@ hr {
 	height: auto;
 }
 
-.reserve-button:hover, .reserve-button:focus, .reserve-button:active {
-  background-color: rgba(0,98,204,0) !important;
-  border: 3px solid #fff !important;
-  box-shadow: none !important;
+/*TeamTrees*/
+ .teamtrees .block1 p {
+   margin-left: 32%;
+ }
+
+ .teamtrees .block2 img {
+   max-width: 80%;
+ }
+
+ #teamtrees {
+  max-width: 30%; 
+  margin-top: 40px; 
+  margin-bottom: 40px;
+ }
+
+ @media screen and (max-width: 768px) {
+  .teamtrees .block1 p {
+    margin-left: 0px;
+  }
+
+  #teamtrees {
+    max-width: 70%;
+  }
+ }
+
+/*PC Build*/
+#pcbuild-animation {
+  margin-top: 50px;
+  max-width: 30%;
+  margin-bottom: 20px;
 }
 
-.reserve-button {
-  background-color: rgba(0,98,204,0);
-  border: 3px solid #fff;
-  border-radius: 30px;
+.pc-build .block1 p {
+  margin-left: 13%;
+  margin-right: 30px;
 }
 
-.btn.btn-link.btn-block.arrow-button {
-  color: rgb(255,255,255);
-  font-size: 32px;
+.pc-build .content .block2 img {
+  margin-left: 27%;
+  max-width: 80%;
 }
+
+#pcbuild-animation {
+  max-width: 30%; 
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .pc-build .block1 p {
+    margin-left: 0px;
+  }
+
+  #pcbuild-animation {
+    max-width: 75%;
+  }
+
+  .pc-build .content .block2 img {
+    margin-left: 0px;
+    max-width: 75%;
+}
+ }
+
+ /*Minecraft*/
+
+ #minecraft {
+   margin-top: 50px;
+   margin-bottom: 20px;
+ }
+
+ .minecraft .block1 p {
+    margin-left: 25%;
+ }
+
+ .minecraft .block2 img {
+   max-width: 95%;
+ }
 
 #hero-bottom .container {
   max-width: 700px;
@@ -249,10 +350,46 @@ hr {
   border-radius: 0.5rem;
 }
 
+@media screen and (max-width: 768px) {
+  .minecraft .block1 p {
+    margin-left: 0px;
+ }
+
+ .minecraft .block2 img {
+  max-width: 80%;
+}
+}
+
+/*RecDrive*/
+#compsoc {
+  width: 20%;
+  margin-top: 50px;
+}
+
 #hero-bottom .container p{
   font-size: 20px;
   font-weight: 400;
   text-align: center;
+}
+
+#recDrive {
+  width: 73%; 
+  margin-left: 22%;
+}
+
+@media screen and (max-width: 768px) {
+  #compsoc {
+    width: 40%
+  }
+
+  #recDrive {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 30px;
+}
+  }
 }
 
 .col.with-borders {
@@ -343,7 +480,7 @@ p{
 }
 
 /*Sidebar*/
-@media screen and (min-width: 875px) and (max-width: 1500px) {
+@media screen and (min-width: 768px) and (max-width: 1500px) {
 #sidebar {
   display: none;
   position: fixed;
