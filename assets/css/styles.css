@@ -206,7 +206,14 @@ hr {
     margin-right: auto;
 }
 }
-
+/*rec drive*/
+#recDriveAnimation {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: auto;
+}
 .reserve-button:hover, .reserve-button:focus, .reserve-button:active {
   background-color: rgba(0,98,204,0) !important;
   border: 3px solid #fff !important;
