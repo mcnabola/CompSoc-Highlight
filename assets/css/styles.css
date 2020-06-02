@@ -106,9 +106,49 @@ hr {
   font-weight: 100;
 }
 
-#event1, #event2, #event3, #event4, #event5 {
+#event1, #event2, #event3, #event4, #event5, #event6 {
   text-align: center;
   clear: left;
+}
+
+/*About*/
+.about {
+  background-image: url(../img/hero2.jpg);
+  width: 100%;
+  background-size: cover;
+  background-position: right;
+}
+
+.about div {
+  width: 50%;
+  position: relative;
+  padding-top: 31%;
+  padding-left: 15%;
+}
+
+@media screen and (max-width: 768px) {
+  .about div {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    background-image: none;
+    width: 100%;
+  }
+
+  .about div {
+    text-align: left;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%
+  }
 }
 
 /*Drone Night*/
@@ -294,10 +334,46 @@ hr {
   border-radius: 0.5rem;
 }
 
+@media screen and (max-width: 768px) {
+  .minecraft .block1 p {
+    margin-left: 0px;
+ }
+
+ .minecraft .block2 img {
+  max-width: 80%;
+}
+}
+
+/*RecDrive*/
+#compsoc {
+  width: 20%;
+  margin-top: 50px;
+}
+
 #hero-bottom .container p{
   font-size: 20px;
   font-weight: 400;
   text-align: center;
+}
+
+#recDrive {
+  width: 73%; 
+  margin-left: 22%;
+}
+
+@media screen and (max-width: 768px) {
+  #compsoc {
+    width: 40%
+  }
+
+  #recDrive {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 30px;
+}
+  }
 }
 
 .col.with-borders {
@@ -378,7 +454,7 @@ hr {
 }
 
 /*Sidebar*/
-@media screen and (min-width: 875px) and (max-width: 1500px) {
+@media screen and (min-width: 768px) and (max-width: 1500px) {
 #sidebar {
   display: none;
   position: fixed;
