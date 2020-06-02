@@ -247,6 +247,22 @@ hr {
     margin-right: auto;
 }
 }
+/*rec drive*/
+
+#recDriveAnimation {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: auto;
+}
+
+
+.recdrive .block2 img {
+	margin-left: 30%;
+	width: 90%;
+	height: auto;
+}
 
 /*TeamTrees*/
  .teamtrees .block1 p {
@@ -382,10 +398,20 @@ hr {
   border-bottom: 0;
 }
 
+h3 {
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+p{
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
 #aero {
   width: 100%;
   height: 100vh;
-  background-image: url("../../assets/img/back3.jpg");
+  background-image: url("../../assets/img/minecraft_pic.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -435,7 +461,7 @@ hr {
 #topview {
   width: 100%;
   height: 120vh;
-  background-image: url("../../assets/img/top.jpg");
+  background-image: url("../../assets/img/team_trees.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
