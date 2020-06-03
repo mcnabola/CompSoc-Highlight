@@ -407,12 +407,12 @@ hr {
     margin-left: 50%;
  }
  .finances .block1 img {
-    margin-left: 10%;
-	max-height: 70%;
-	max-width: auto;
+    margin-left: 50%;
+	max-width: 50%;
  }
  .finances .block2 img {
-   max-width: 80%;
+   max-width: 60%;
+   margin-left: 7%;
  }
 
 #hero-bottom .container {
