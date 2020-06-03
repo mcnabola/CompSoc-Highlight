@@ -12,7 +12,7 @@ body {
   color: rgb(255,255,255);
 }
 
-@import url("../../assets/fonts/SlabHappyOutlineW00-Regular.tff");
+@import url("../assets/fonts/SlabHappyOutlineW00-Regular.tff");
 
 h1 { 
   font-family: "SlabHappyOutlineW00-Regular"; 
@@ -106,7 +106,7 @@ hr {
   font-weight: 100;
 }
 
-#event1, #event2, #event3, #event4, #event5, #event6 {
+#event1, #event2, #event3, #event4, #event5, #event6, #event7 {
   text-align: center;
   clear: left;
 }
@@ -362,8 +362,10 @@ hr {
 
 /*RecDrive*/
 #compsoc {
-  width: 20%;
+  width: 40%;
   margin-top: 50px;
+  margin-bottom: 20px;
+  border-radius: 1rem;
 }
 
 #hero-bottom .container p{
@@ -379,7 +381,7 @@ hr {
 
 @media screen and (max-width: 768px) {
   #compsoc {
-    width: 40%
+    width: 80%
   }
 
   #recDrive {
@@ -395,12 +397,12 @@ hr {
 /*finances*/
 
  #finances {
-	 width:40%;
+	 width: 30%;
    margin-top: 50px;
    margin-bottom: 20px;
    display:block;
-       margin-left: auto;
-    margin-right: auto;
+   margin-left: auto;
+   margin-right: auto;
  }
 
  .finances .block1 p {
@@ -452,77 +454,6 @@ p{
 	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
-#aero {
-  width: 100%;
-  height: 100vh;
-  background-image: url("../../assets/img/minecraft_pic.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-#aero .container {
-  margin-top: 300px;
-}
-
-#aero .h3, h3 {
-  font-family: Montserrat, sans-serif;
-}
-
-#interior {
-  width: 100%;
-  height: 60vh;
-}
-
-@media (min-width: 768px) {
-  #interior {
-    width: 100%;
-    height: 100vh;
-  }
-}
-
-#interior .figure {
-  max-width: 90%;
-}
-
-@media (min-width: 768px) {
-  #interior .figure {
-    max-width: 70%;
-  }
-}
-
-#interior .figure-caption {
-  color: rgb(255,255,255);
-  margin-top: 15px;
-}
-
-#caption-title {
-  margin-right: 20px;
-  font-size: 20px;
-  font-family: Montserrat, sans-serif;
-}
-
-#topview {
-  width: 100%;
-  height: 120vh;
-  background-image: url("../../assets/img/team_trees.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-#topview .container {
-  margin-bottom: 150px;
-}
-
-#topview .h4, h4 {
-  font-family: Montserrat, sans-serif;
-}
-
-#topview p {
-  font-weight: 100;
-}
-
 /*Sidebar*/
 @media screen and (min-width: 768px) and (max-width: 1800px) {
 #sidebar {
@@ -566,39 +497,6 @@ p{
     font-size: 39px;
   }
 
-}
-
-
-#video-and-stats {
-  text-align: center;
-}
-
-#video-and-stats iframe {
-  width: 90%;
-  height: 400px;
-}
-
-@media (min-width: 992px) {
-  #video-and-stats iframe {
-    width: 900px;
-    height: 500px;
-  }
-}
-
-#stats {
-  width: 90%;
-  margin: 0 auto;
-  margin-bottom: 150px;
-  font-size: 15px;
-}
-
-@media (min-width: 768px) {
-  #stats {
-    width: 600px;
-    margin: 0 auto;
-    margin-bottom: 150px;
-    font-size: 15px;
-  }
 }
 
 
