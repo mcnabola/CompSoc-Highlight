@@ -360,10 +360,11 @@ hr {
 }
 }
 
-/*RecDrive*/
+/*Oscilloscope logo*/
 #compsoc {
   width: 40%;
-  margin-top: 50px;
+  margin-left:30%;
+  margin-top: 70px;
   margin-bottom: 20px;
   border-radius: 1rem;
 }
@@ -381,7 +382,8 @@ hr {
 
 @media screen and (max-width: 768px) {
   #compsoc {
-    width: 80%
+    width: 80%;
+	margin-left:10%;
   }
 
   #recDrive {
@@ -396,26 +398,7 @@ hr {
 
 /*finances*/
 
- #finances {
-	 width: 30%;
-   margin-top: 50px;
-   margin-bottom: 20px;
-   display:block;
-   margin-left: auto;
-   margin-right: auto;
- }
 
- .finances .block1 p {
-    margin-left: 50%;
- }
- .finances .block1 img {
-    margin-left: 50%;
-	max-width: 50%;
- }
- .finances .block2 img {
-   max-width: 60%;
-   margin-left: 7%;
- }
 
 #hero-bottom .container {
   max-width: 700px;
@@ -425,18 +408,49 @@ hr {
   padding-top: 20px;
   border-radius: 0.5rem;
 }
+#finances {
+	max-width:30%;
+	margin-top:30px;
+}
 
-@media screen and (max-width: 768px) {
   .finances .block1 p {
-    margin-left: 0px;
+    margin-left: 55%;
+	width:50%;
  }
-
-
+ .finances .block1 img {
+	margin-left:  52%;
+	width: 55%;
+	height: auto;
+}
  .finances .block2 img {
-  max-width: 80%;
-  margin-bottom:30px;
+	margin-left: -22%;
+	width: 60%;
+	height: auto;
 }
+@media screen and (max-width: 768px) {
+	#finances {
+	max-width:80%;
+	margin-top:30px;
+}  
+.finances .block1 p {
+    text-align:center;
+	width:90%;
+	margin-left:5%;
+ }
+	.finances .block1 img {
+		margin-top:20px;
+	margin-left:10%;
+	width: 80%;
+	height: auto;
 }
+ .finances .block2 img {
+	 margin-left:0%;
+	width: 80%;
+	height: auto;
+}
+
+}
+
 
 .col.with-borders {
   border-right: 1px solid rgba(255,255,255,0.2);
